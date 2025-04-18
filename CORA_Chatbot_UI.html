@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>CORA Chatbot</title>
+<style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('reproductive background.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: rgba(255, 255, 255, 0.8);
+            background-blend-mode: lighten;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px 10px 0 10px;
+            position: relative;
+        }
+
+        .logo-fixed {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 120px;
+            z-index: 999;
+        }
+
+        h1 {
+            margin-top: 40px;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        p.description {
+            font-size: 1.2em;
+            color: #444;
+            margin: 10px auto 30px;
+            max-width: 800px;
+        }
+
+        
+.chatbot-frame {
+    width: 100%;
+    max-width: 720px;
+    height: 80vh;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    margin: 40px auto;
+    display: block;
+}
+
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        @media (max-width: 720px) {
+            .chatbot-frame {
+                width: 95%;
+                height: 75vh;
+            }
+        }
+
+        .social-media-links {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 999;
+        }
+
+        .social-media-links a img {
+            width: 36px;
+            height: 36px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-media-links a img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+<img alt="Center for Reproductive Rights Logo" class="logo-fixed" src="Logo.jpg"/>
+<div class="container">
+<h1>CORA: Chatbot for Reproductive Access</h1>
+<p class="description">CORA is a virtual assistant created to help users find information about abortion laws, self-managed abortion, and legal access to reproductive care in their state or country.</p>
+<iframe class="chatbot-frame" src="https://copilotstudio.microsoft.com/environments/Default-7b331012-87a1-4a16-8b0f-a4605b1f3d7f/bots/cr52a_cora_qw9bL_/webchat?__version__=2"></iframe>
+<footer>Learn more at <a href="https://reproductiverights.org/" target="_blank">https://reproductiverights.org/</a></footer>
+</div>
+<div class="social-media-links">
+<a href="https://www.instagram.com/reprorights/" target="_blank"><img alt="Instagram" src="icons8-instagram.svg"/></a>
+<a href="https://twitter.com/reprorights" target="_blank"><img alt="Twitter" src="icons8-twitter.svg"/></a>
+<a href="https://www.linkedin.com/company/center-for-reproductive-rights" target="_blank"><img alt="LinkedIn" src="icons8-linkedin.svg"/></a>
+<a href="https://www.facebook.com/reproductiverights/" target="_blank"><img alt="Facebook" src="icons8-facebook.svg"/></a>
+<a href="https://www.youtube.com/c/centerforreproductiverights" target="_blank"><img alt="YouTube" src="icons8-youtube.svg"/></a>
+</div>
+</body>
+</html>
