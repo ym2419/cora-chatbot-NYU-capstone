@@ -34,7 +34,7 @@ CORA was built using Microsoft Copilot Studio and is embedded in a custom HTML i
 
 ## 🌐 Live Chatbot UI
 Check out the embedded CORA Chatbot interface here:  
-➡️ [Launch CORA Chatbot](https://your-username.github.io/your-repo-name/)
+➡️ [Launch CORA Chatbot](https://ym2419.github.io/cora-chatbot-NYU-capstone/)
 
 ---
 
