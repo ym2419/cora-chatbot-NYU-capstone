@@ -2,7 +2,7 @@
 
 **CORA** (Chatbot for Reproductive Access) is a bilingual virtual assistant developed to support users seeking information on reproductive rights, including abortion laws, self-managed abortion, and access to care. This project was developed as a final capstone for the MS in Management and Systems program at NYU SPS.
 
-![Logo](assets/Logo.jpg)
+![Logo](docs/Logo.jpg)
 
 ---
 
@@ -32,18 +32,17 @@ CORA was built using Microsoft Copilot Studio and is embedded in a custom HTML i
 
 ---
 
-## 🔗 Live Chatbot Demo
-
-[CORA Chatbot (Web Embed)](https://copilotstudio.microsoft.com/environments/Default-7b331012-87a1-4a16-8b0f-a4605b1f3d7f/bots/cr52a_cora_qw9bL_/webchat?__version__=2)
+## 🌐 Live Chatbot UI
+Check out the embedded CORA Chatbot interface here:  
+➡️ [Launch CORA Chatbot](https://your-username.github.io/your-repo-name/)
 
 ---
 
 ## 🗂 File Structure
 
-/assets                  → icons, logo, background  
-/docs                   → assignments, PDF docs, demo scripts  
-CORA_Chatbot_UI.html    → main chatbot showcase file  
-README.md               → this file  
+- `/docs` → assignments, PDF docs, demo scripts, icons, logo, background, main chatbot showcase file  
+- `/chatbot_config` → topic screenshots, topic workflows  
+- `README.md` → this file
 
 ---
 
